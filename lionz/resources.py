@@ -150,13 +150,13 @@ MODELS = {
     ],
     "psma": [
         {
-            "url": "https://enhance-pet.s3.eu-central-1.amazonaws.com/lion/clin_pt_resenc_PSMA550_30042024.zip",
+            "url": "https://enhance-pet.s3.eu-central-1.amazonaws.com/lion/clin_pt_PSMA550_tumors_22042024.zip",
             "filename": "Dataset711_PSMA.zip",
             "directory": "Dataset711_PSMA",
             "trainer": "nnUNetTrainer",
             "voxel_spacing": [3, 3, 3],
             "multilabel_prefix": "psma_tumor",
-            "plans": "nnUNetResEncUNetLPlans",
+            "plans": "nnUNetPlans",
             "configuration": "3d_fullres"
         }
     ],

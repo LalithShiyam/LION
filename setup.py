@@ -14,7 +14,7 @@ emails_string = ", ".join([email for name, email in AUTHORS])
 
 setup(
     name='lionz',
-    version='0.8',
+    version='0.9',
     packages=find_packages(),
     install_requires=[
         'nnunetv2',
@@ -25,7 +25,7 @@ setup(
         'pydicom',
         'argparse',
         'imageio',
-        'numpy',
+        'numpy<2.0',
         'mpire',
         'openpyxl',
         'matplotlib',
